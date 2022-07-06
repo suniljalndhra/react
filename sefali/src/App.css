@@ -1,0 +1,142 @@
+.navbar-brand {
+  color: #000;
+  display: flex;
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: .2rem;
+  margin-left: 0;
+  text-transform: uppercase;
+}
+.navbar-brand span:first-child {
+  margin-left: 17px;
+}
+.text-orange {
+  color: #ff5252;
+}
+.page-wrapper .btn-primary {
+  min-width: 12rem;
+}
+.navbar-brand .text-orange {
+  padding-left: 16px !important;
+  padding-right: 3.2px;
+}
+.btn-primary {
+  color: #fff;
+  background-color: #ff5252;
+  border-color: #ff5252;
+  color: #fbfcfd;
+  box-shadow: 0 0 1.2rem rgb(255 82 82 / 40%);
+}
+.btn.btn-primary.focus, .btn.btn-primary:focus, .btn.btn-primary:hover {
+  color: #fff;
+  background-color: rgba(0,0,0,0);
+  border-color: #ff5252;
+}
+.btn.btn-primary:active, .btn.btn-primary:focus, .btn.btn-primary:hover {
+  color: #ff5252!important;
+}
+header .navbar-nav {
+  gap: 25px;
+}
+.hero-section h1 {
+  font-size: 55px;
+  font-weight: 700;
+}
+section{
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
+.hero-section {
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  min-height: 90vh;
+  display: flex;
+  align-items: center;
+  background-position: bottom;
+}
+.touch-section {
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  background-position: bottom;
+}
+.features-section {
+  color: #fbfcfd;
+  background-color: #313946;
+  position: relative;
+  margin-bottom: 12rem;
+  padding-bottom: 12rem;
+}
+.features-section h3 {
+  font-size: 1.5rem;
+  margin: 1rem 0;
+}
+
+.features-section img {
+  height: 64px;
+}
+.vide-section {
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  padding-top: 5rem;
+}
+.vide-section iframe {
+  max-width: 640px;
+}
+.unique-section {
+  color: #4b4d52;
+  padding-bottom: 0;
+}
+.branch-section .logo-branch {
+  font-size: 24px;
+  font-weight: 700;
+  gap: 16px;
+  align-items: center;
+  justify-content: center;
+}
+.branch-section{
+  color: #fbfcfd;
+  background-color: #313946;
+}
+.h-divisions-buttons a {
+    background-color: #313946;
+    border: 0;
+    border-radius: 2rem;
+    display: block;
+    font-weight: 500;
+    margin: 1rem;
+}
+.h-divisions-buttons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 3rem 0 4rem;
+}
+footer {
+  background-color: #171717;
+  padding: 32px 0;
+  color: #fff;
+}
+.copyright, .copyright a {
+  font-size: 0.8rem;
+  color: rgba(251,252,253,.8);
+}
+@media (max-width:991px){
+  section {
+      padding-top: 4rem;
+      padding-bottom: 4rem;
+  }
+  .vide-section {
+    padding-top: 2rem;
+  }
+}
+@media (max-width:767px){
+  .hero-section h1 {
+    font-size: 30px;
+  }
+}
